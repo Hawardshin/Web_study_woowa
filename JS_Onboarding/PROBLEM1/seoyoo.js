@@ -18,7 +18,7 @@ function checkInput(arrayToCheck) {
 
 function solution(pobi, crong) {
   // Check if the page numbers are valid
-  if (checkInput(pobi, crong) == false) {
+  if (checkInput(pobi) == false || checkInput(crong) == false) {
     return -1;
   }
 
@@ -34,4 +34,6 @@ function solution(pobi, crong) {
   }
 }
 
-console.log(solution([11, 12], [11, 12]));
+console.log(solution([97, 98], [197, 198]));
+console.log(solution([131, 132], [211, 212]));
+console.log(solution([99, 102], [211, 212]));
