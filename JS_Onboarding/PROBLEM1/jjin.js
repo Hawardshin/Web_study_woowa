@@ -56,5 +56,5 @@ function problem1(pobi, crong) {
   return scoreCmp(personMax(pobi), personMax(crong));
 }
 
-module.exports = problem1;
+export default problem1;
 console.log(multDigits(123));
